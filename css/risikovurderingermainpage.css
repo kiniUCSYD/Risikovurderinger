@@ -21,5 +21,23 @@ body
     height:100%;
 }
 
+h1 {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    text-align: left;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 13pt;
+    text-align: left;
+}
+
+
 @media screen and (min-width: 1020px) {
 }
