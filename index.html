@@ -5,18 +5,7 @@
     <meta charset="utf-8" />
     <title>Risikovurderinger</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $.get('../risikovurderingtekstfiler/risikovurdering_forsidetekst.txt', function (data) {
-                var lines = data.split("\n");
-                console.log("lines" + lines);
-
-                $.each(lines, function (n, elem) {
-                    $('#myContainer').append('<div>' + elem + '</div>');
-                });
-            });
-        });
-    </script>
+    <script src="js/readfile.js"></script>
 </head>
 <body lang="da" xmlns="http://www.w3.org/1999/xhtml">
     <h1>Risikovurderinger</h1>
